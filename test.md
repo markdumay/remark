@@ -2,6 +2,8 @@
 [ok][{{< relref "a" >}}]
 [ok][{{< param "links" >}}]
 [ok][{{< ref "links" >}}]
+[should fail][{{< xxx "links" >}}]
+[should fail][anything]
 
 <!-- the pattern fails when using []() -->
-[fail]({{< param "fail" >}})
+[should not fail]({{< param "fail" >}})
