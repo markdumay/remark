@@ -30,7 +30,7 @@
       [
         "remark-lint-no-undefined-references",
         {
-          "allow": [{ "source": "^\\(?{{<\\s?(param|ref|relref)\\s+\".*?\"\\s?>}}$\\)?" }]
+          "allow": [{ "source": "^{{<\\s?(param|ref|relref)\\s+\".*?\"\\s?>}}$" }]
         }
       ]
     ]
